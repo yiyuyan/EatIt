@@ -1,0 +1,22 @@
+{
+  "minecraft:apple": {
+    "saturation": 10.0,
+    "nutrition": 18,
+    "commands": [
+      "say This is a test message."
+    ]
+  },
+  "minecraft:stone_axe": {
+    "saturation": -10.0,
+    "nutrition": 0,
+    "always": true,
+    "commands": [
+      "me ?",
+      "kill @p",
+      "execute at @p as @p run summon minecraft:lightning_bolt ~ ~ ~"
+    ]
+  },
+  "excluded": [
+    "minecraft:wooden_shovel"
+  ]
+}
